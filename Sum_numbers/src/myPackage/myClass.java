@@ -1,0 +1,25 @@
+package myPackage;
+
+import java.util.Scanner;
+
+public class myClass
+{
+
+	public static void main(String[] args)
+	{
+		int n1, n2, sum;
+		Scanner obj = new Scanner(System.in);
+		// Read value from user
+		System.out.println("Enter number 1");
+		n1= obj.nextInt();
+		
+		System.out.println("Enter number 2");
+		n2= obj.nextInt();
+		
+		sum= n1+n2;
+		System.out.println("sum of two numbers = "+sum);
+		
+
+	}
+
+}
